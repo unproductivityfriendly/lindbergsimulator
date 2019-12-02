@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<meta charset=utf-8>
+	<meta name=description content="balmung">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/game.css">
+	<link rel="stylesheet" type="text/css" href="css/game-conditional.css">
+</head>
+<body>
+
+	<div id="game-views" class="noselect">
+		<div id="mainview" 		class="game-view" game-ui-init-main="view/mainview.html"></div>
+		<div id="logview" 	class="game-view" game-ui-init-maplog="view/logview.html"></div>
+	</div>
+	
+	<div id="debugview" game-ui-init-debug="view/debug.html"></div>
+	<div>
+		<!-- <script src="js/lib/fpsmeter.min.js"></script> -->
+		<script src="js/lib/HackTimer.js"></script>
+		<script src="js/lib/HackTimerWorker.min.js"></script>
+		<script src="js/main.js" type="module"></script>
+	</div>
+</body>
+</html>

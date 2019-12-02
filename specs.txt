@@ -1,0 +1,55 @@
+specs for simulator
+
+	performance
+		only use number if possible 
+		use numeric keys for performance
+			https://stackoverflow.com/a/10639526
+
+	compatiblity
+		rendering
+			run GUI separately so can run it on nodejs
+
+	functionnality
+		profile of guild tech/familiar/equips
+
+
+	classes
+		Config
+
+		Hero
+		Battle Model
+		Battle Engine
+		Player
+			Guild Tech
+			Familiar
+
+		Simulator
+			Simple Fight
+			Legion/Team
+			GW
+			GBoss/FBoss
+			Trials
+
+
+
+
+
+specs for user data crawler
+
+	possible inputs
+		full or partial player profile
+		before battle lineup screen
+
+		gw formation lineup list
+		gw guilds' line up
+
+		guild tech
+		familiar
+
+	data required
+		image for all heroes
+			including skins
+			border for stars
+		familiar images
+			familiar skill images?
+		shouldn't need aura since we can calculate it depending on the heroes in team

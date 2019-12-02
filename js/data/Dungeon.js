@@ -1,0 +1,7 @@
+export let Dungeon = {
+    id_1 : {Id : 1, NextId : 2, Icon : 'sy_dungeon_btn_1', ImgFg : 'bg_dungeon_1_1', ImgBg : 'bg_dungeon_1_2', GroundEffect : 'sp_ui_dungeon_bg_1', RewardItem : 11027, NameLang : 126001, RankRewards : 71101, BanType : {{1,1},{1,3}}, BanFrame : {20023,20025}}, 
+    id_2 : {Id : 2, NextId : 3, Icon : 'sy_dungeon_btn_2', ImgFg : 'bg_dungeon_2_1', ImgBg : 'bg_dungeon_2_2', GroundEffect : 'sp_ui_dungeon_bg_2', RewardItem : 11031, NameLang : 126002, RankRewards : 71102, BanType : {{1,2},{1,4}}, BanFrame : {20024,20026}}, 
+    id_3 : {Id : 3, NextId : 4, Icon : 'sy_dungeon_btn_3', ImgFg : 'bg_dungeon_3_1', ImgBg : 'bg_dungeon_3_2', GroundEffect : 'sp_ui_dungeon_bg_3', RewardItem : 11028, NameLang : 126003, RankRewards : 71103, BanType : {{1,1},{1,2}}, BanFrame : {20023,20024}}, 
+    id_4 : {Id : 4, NextId : 5, Icon : 'sy_dungeon_btn_4', ImgFg : 'bg_dungeon_4_1', ImgBg : 'bg_dungeon_4_2', GroundEffect : 'sp_ui_dungeon_bg_4', RewardItem : 11029, NameLang : 126004, RankRewards : 71104, BanType : {{1,3},{1,4}}, BanFrame : {20025,20026}}, 
+    id_5 : {Id : 5, NextId : 1, Icon : 'sy_dungeon_btn_5', ImgFg : 'bg_dungeon_5_1', ImgBg : 'bg_dungeon_5_2', GroundEffect : 'sp_ui_dungeon_bg_5', RewardItem : 11030, NameLang : 126005, RankRewards : 71105, BanType : {{1,5},{1,6}}, BanFrame : {20027,20028}}, 
+}
